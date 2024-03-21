@@ -1,0 +1,67 @@
+dumpbin /EXPORTS .\MiAPI.dll
+Microsoft (R) COFF/PE Dumper Version 14.36.32537.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file .\MiAPI.dll
+
+File Type: DLL
+
+  Section contains the following exports for MiAPI.dll
+
+    00000000 characteristics
+    5B629A75 time date stamp Thu Aug  2 07:45:25 2018
+        0.00 version
+           1 ordinal base
+          39 number of functions
+          39 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00003000 _MiAPI_Display_GetAmountOfMonitors@4
+          2    1 00003140 _MiAPI_Display_GetBrightness@8
+          3    2 000031C0 _MiAPI_Display_GetContrast@8
+          4    3 00003030 _MiAPI_Display_GetMonitorInfo@8
+          5    4 000032A0 _MiAPI_Display_Off@0
+          6    5 00003260 _MiAPI_Display_On@0
+          7    6 00003120 _MiAPI_Display_Rescan@0
+          8    7 00003190 _MiAPI_Display_SetBrightness@8
+          9    8 00003210 _MiAPI_Display_SetContrast@8
+         10    9 00003240 _MiAPI_Display_SetOrientation@8
+         11    A 00002770 _MiAPI_Exit@0
+         12    B 00002CC0 _MiAPI_GPIO_GetStatus@8
+         13    C 00002D50 _MiAPI_GPIO_SetStatus@8
+         14    D 00002820 _MiAPI_GetBIOSVersion@8
+         15    E 000032C0 _MiAPI_GetFanSpeed@12
+         16    F 00002780 _MiAPI_GetMiAPIVersion@8
+         17   10 00002930 _MiAPI_GetProductName@8
+         18   11 000033C0 _MiAPI_GetTemperature@12
+         19   12 00003460 _MiAPI_GetVoltage@12
+         20   13 00002FA0 _MiAPI_SMBusReadBlock@16
+         21   14 00002EA0 _MiAPI_SMBusReadByte@12
+         22   15 00002DC0 _MiAPI_SMBusReadQuick@4
+         23   16 00002F20 _MiAPI_SMBusReadWord@12
+         24   17 00002E20 _MiAPI_SMBusReceiveByte@8
+         25   18 00002E60 _MiAPI_SMBusSendByte@8
+         26   19 00002FD0 _MiAPI_SMBusWriteBlock@16
+         27   1A 00002EE0 _MiAPI_SMBusWriteByte@12
+         28   1B 00002DF0 _MiAPI_SMBusWriteQuick@4
+         29   1C 00002F60 _MiAPI_SMBusWriteWord@12
+         30   1D 00003360 _MiAPI_SetFanSpeed@12
+         31   1E 00002740 _MiAPI_Start@0
+         32   1F 00002C50 _MiAPI_Watchdog_Disable@0
+         33   20 00002AB0 _MiAPI_Watchdog_GetRange@12
+         34   21 00002BE0 _MiAPI_Watchdog_Refresh@0
+         35   22 00002B80 _MiAPI_Watchdog_SetConfig@8
+         36   23 00002A40 _MiAPI_Watchdog_Start@0
+         37   24 00003500 _MiAPI_Wireless_GetAmountOfAccessPoint@4
+         38   25 00003560 _MiAPI_Wireless_GetWiFiStatus@8
+         39   26 000035F0 _MiAPI_Wireless_RequeryWiFiStatus@0
+
+  Summary
+
+        4000 .data
+        5000 .rdata
+        2000 .reloc
+        8000 .rsrc
+       12000 .text

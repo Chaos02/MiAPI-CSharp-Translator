@@ -1,0 +1,1 @@
+Keep MiAPI.dll stay within application's folder! 
